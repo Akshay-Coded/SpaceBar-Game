@@ -37,13 +37,13 @@ document.addEventListener("keyup",function(e){
         currentScore++;
         console.log(currentScore);
         score.textContent = currentScore;
-        spaceKey.style.backgroundImage = "url(assets/spaceKey.png)";
+        spaceKey.style.backgroundImage = "url(./assets/spaceKey.png)";
     }
 });
 
 document.addEventListener("keydown",function(e){
     if(e.key == " " && isPlaying){
-        spaceKey.style.backgroundImage = "url(assets/spaceKeyPressed.png)";
+        spaceKey.style.backgroundImage = "url(./assets/spaceKeyPressed.png)";
 
     }
 })
